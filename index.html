@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="Assets/style/style.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript -->
+    <script src="Assets/Script/app.js"></script>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">JavaScript Blog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ES6</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Advanced
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">JS Array</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">JS String Method</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">ES Next</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Regular Expression</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">JS Dom</a>
+              </li>
+            </ul>
+            <a href="login-page/index.html">
+              <button
+                class="btn btn-outline-success btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                type="login"
+              >
+                Login
+              </button></a
+            >
+            <!-- <div class="modal fade" id="exampleModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Login Page
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <link rel="import" href="login-page/index.html" />
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="nav-bar-tab">
+          <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Introduction</a
+            >
+            <a class="nav-link" href="#">Fundamentals</a>
+            <a class="nav-link" href="#">Operators</a>
+            <a class="nav-link" href="#">Control flow Statements</a>
+            <a class="nav-link" href="#">Functions</a>
+            <a class="nav-link" href="#">Objects & Prototypes</a>
+            <a class="nav-link" href="#">Classes</a>
+            <a class="nav-link" href="#">Advanced Functions</a>
+          </nav>
+        </div>
+      </div>
+
+      <h1 class="head-title">JavaScript</h1>
+      <div class="tab-1" id="tab-1">
+        <div class="container">
+          <h3 class="head-sub-title">JavaScript Tutorial</h3>
+
+          <div class="wp-block-image">
+            <img
+              src="https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg"
+              alt="JavaScript Tutorial"
+              class="rounded float-end"
+              width="150"
+              height="150"
+              title="JavaScript Tutorial"
+            />
+          </div>
+          <div class="contant">
+            <p>
+              Welcome to the JavaScriptTutorial.net website! This JavaScript
+              Tutorial helps you learn the JavaScript programming language from
+              scratch quickly and effectively.
+            </p>
+            <ul>
+              <li>Are not sure where to start learning JavaScript.</li>
+              <li>
+                Are frustrated with copy-n-paste JavaScript code from others
+                without really understanding it.
+              </li>
+              <li>
+                Cannot add richer and more compelling features to your websites
+                and web applications using JavaScript because you don't know how
+                to get much out of the language.
+              </li>
+            </ul>
+            <br />
+            <p>JavaScriptTutorial.net is a good place to start.</p>
+            <div class="card" style="width: auto">
+              <div class="card-body">
+                <h3 class="card-title">Section 1</h3>
+                <h4 class="card-subtitle mb-2 text-muted">Getting started</h4>
+                <p class="card-text">
+                  <a href="#" class="card-link ink">What is JavaScript?</a>
+                  - introduce you to JavaScript and its history
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink"
+                    >Install a JavaScript source code editor</a
+                  >
+                  - learn how to install the Visual Studio Code for editing
+                  JavaScript code.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink"
+                    >Meet the Console Tab of Web Development Tools</a
+                  >
+                  - provide you with a basic introduction to the Console window
+                  on the web browsers.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">JavaScript Hello World</a>
+                  - learn how to execute the first JavaScript code that displays
+                  the famous "Hello, World!" message.
+                </p>
+              </div>
+            </div>
+            <br />
+            <div class="card" style="width: auto">
+              <div class="card-body">
+                <h3 class="card-title">Section 2</h3>
+                <h4 class="card-subtitle mb-2 text-muted">Fundamentals</h4>
+                <p class="card-text">
+                  <a href="#" class="card-link ink">Syntax</a>
+                  - explain the JavaScript syntax, including whitespace,
+                  statements, identifiers, keywords, expressions, and comments.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Variables</a>
+                  - show you how to declare variables.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Data types </a>
+                  - introduce to you the JavaScript data types, including
+                  primitive and reference types.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Number types </a>
+                  - learn how JavaScript use the Number type to represent the
+                  integer and floating-point numbers.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink"> Numeric Separator</a>
+                  - show you how to make the numbers more readable by using
+                  underscores as numeric separators.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Octal & binary literals</a>
+                  - provide support for binary literals and change the way to
+                  represent octal literals.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Boolean </a>
+                  - introduce you to the Boolean type.
+                </p>
+              </div>
+            </div>
+
+            <br />
+            <div class="card" style="width: auto">
+              <div class="card-body">
+                <h3 class="card-title">Section 3</h3>
+                <h4 class="card-subtitle mb-2 text-muted">Operators</h4>
+                <p class="card-text">
+                  <a href="#" class="card-link ink">Arithmetic operators </a>
+                  - introduce to you the arithmetic operators including addition
+                  (+), subtraction (-), multiplication (*), and division (/).
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Remainder operator</a>
+                  - show you how to use the remainder operator (%) to get the
+                  remainder left over when one value is divided by another
+                  value.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Assignment operators</a>
+                  - guide you on how to use assignment operators (=) to assign a
+                  value or an expression to a variable.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Unary operators</a>
+                  - learn how to use unary operators.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Comparison operators</a>
+                  - show you how to use comparison operators to compare two
+                  values.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Logical operators</a>
+                  - learn how to use the logical operators: NOT (!), AND (&&),
+                  and OR (||).
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink"
+                    >Logical assignment operators</a
+                  >
+                  - introduce to you the logical assignment operators, including
+                  ||=, &&=, and ??=
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Exponentiation operator</a>
+                  - introduce you to the exponentiation operator (**) that
+                  calculates a base to the exponent power, which is similar to
+                  Math.pow() method.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink"
+                    >Nullish coalescing operator (??)</a
+                  >
+                  - accept two values and return the second value if the first
+                  one is null or undefined.
+                </p>
+              </div>
+            </div>
+            <br />
+            <div class="card" style="width: auto">
+              <div class="card-body">
+                <h3 class="card-title">Section 4</h3>
+                <h4 class="card-subtitle mb-2 text-muted">
+                  Control flow Statements
+                </h4>
+                <p class="card-text">
+                  <a href="#" class="card-link ink">if</a>
+                  - show you how use the if statement to execute a block if a
+                  condition is true.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">if…else</a>
+                  - learn how to execute a block of code based on a specified
+                  condition.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">if…else…if</a>
+                  - check multiple conditions and execute a block.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">Ternary operators</a>
+                  - show you how to make a shortcut for the if statement ( ?:).
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">switch</a>
+                  - show you how to replace multiple if statements when
+                  comparing a value with multiple variants by using the switch
+                  statement.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">while</a>
+                  - learn how to perform a pre-test loop that repeatedly
+                  executes a block of code as long as a specified condition is
+                  true.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">do…while </a>
+                  - show you how to carry a post-test loop that executes a block
+                  of code repeatedly until a specified condition is false.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">for loop</a>
+                  - learn how to repeatedly execute a block of code based on
+                  various options.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">break </a>
+                  - learn how to prematurely terminate a loop.
+                </p>
+                <p class="card-text">
+                  <a href="#" class="card-l ink">continue</a>
+                  - show you how to skip the current iteration of a loop and
+                  jump to the next one.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="tab-2" id="tab2">
+        <div class="container">
+          <h3 class="head-sub-title">JavaScript Syntax</h3>
+          <div class="contant">
+            <h5>Summary:</h5>
+            <p>
+              <br />In this tutorial, you will learn about JavaScript syntax,
+              including whitespace,statements, identifiers,comments,
+              expressions, and keywords.
+            </p>
+            <h4>Whitespace</h4>
+            <p>
+              Whitespace refers to characters that provide the space between
+              other characters. JavaScript has the following whitespace:
+            </p>
+            <ul>
+              <li>Carriage return</li>
+              <li>Space</li>
+              <li>New Line</li>
+              <li>Tab</li>
+            </ul>
+            <br />
+            <p>
+              JavaScript engine ignores whitespace. However, you can use
+              whitespace to format the code to make it easy to read and
+              maintain. <br />
+              The following JavaScript code doesn't use whitespace:
+            </p>
+            <br />
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> formatted =
+                <span class="hljs-literal">true</span>;<br />
+                <span class="hljs-keyword">if</span> (formatted) {<span
+                  class="hljs-built_in"
+                  >console</span
+                >.log(<span class="hljs-string">'The code is easy to read'</span
+                >)};</code
+              >
+            </div>
+            <br />
+            <p>
+              It's is equivalent to the following code that uses whitespace.
+              Hence, this code is much easy to read:
+            </p>
+            <div>
+              <pre
+                class="wp-block-code"
+                aria-describedby="shcb-language-2"
+                data-shcb-language-name="JavaScript"
+                data-shcb-language-slug="javascript"
+              ><div><code class="hljs language-javascript"><span class="hljs-keyword">let</span> formatted = <span class="hljs-literal">true</span>;
+                    <span class="hljs-keyword">if</span> (formatted) {
+                      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'The code is easy to read'</span>);
+                    }</code></div><i class="icon-copy btn-copy-code"></i></pre>
+            </div>
+
+            <h4>Statements</h4>
+            <p>
+              A statement is a code that declares a variable or instructs the
+              JavaScript engine to do a task. A simple statement is terminated
+              by a semicolon (;).
+            </p>
+            <br />
+            <p>
+              Although the semicolon (;) is optional; you should always use it
+              to terminate a statement. For example, the following declares a
+              variable and shows it to the console:
+            </p>
+
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> message =
+                <span class="hljs-string">"Welcome to JavaScript"</span>;<br />
+                <span class="hljs-built_in">console</span>.log(message);</code
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-3" id="tab3">
+        <div class="container">
+          <h2 class="head-sub-title">JavaScript Variables</h2>
+          <div class="contant">
+            <h5>Summary:</h5>
+            <p>
+              <br />in this tutorial, you'll learn about JavaScript variables
+              and how to use variables to store values in the application.
+              <br />
+              A variable is a label that references a value like a number or
+              string. Before using a variable, you need to declare it.
+            </p>
+            <img
+              src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/JavaScript-variables.svg"
+              data-src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/JavaScript-variables.svg"
+              alt=""
+              class="rounded mx-auto d-block"
+            />
+            <h3>Declare a variable</h3>
+            <p>
+              To declare a variable, you use the var keyword followed by the
+              variable name as follows:
+            </p>
+            <div class="">
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">var</span> message;</code
+              >
+            </div>
+            <br />
+            <p>
+              A variable name can be any valid identifier. By default, the
+              message variable has a special value undefined if you have not
+              assigned a value to it. <br />
+              Variable names follow these rules:
+            </p>
+            <ul>
+              <li>
+                Variable names are case-sensitive. This means that the message
+                and Message are different variables.
+              </li>
+              <li>
+                Variable names can only contain letters, numbers, underscores,
+                or dollar signs and cannot contain spaces. Also, variable names
+                must begin with a letter, an underscore (_) or a dollar sign
+                ($).
+              </li>
+              <li>Variable names cannot use the reserved words.</li>
+            </ul>
+            <br />
+            <p>
+              By convention, variable names use camelcase like message, yourAge,
+              and myName. <br />
+              JavaScript is a dynamically typed language. This means that you
+              don't need to specify the variable's type in the declaration like
+              other static typed languages such as Java or C#. <br />
+              Starting in ES6, you can use the let keyword to declare a variable
+              like this:
+            </p>
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> message;</code
+              >
+            </div>
+            <br />
+            <p>
+              It's a good practice to use the let keyword to declare a variable.
+              Later, you'll learn the differences between var and let keywords.
+              And you should not worry about it for now.
+            </p>
+            <h3>Initialize a variable</h3>
+            <p>
+              Once you have declared a variable, you can initialize it with a
+              value. To initialize a variable, you specify the variable name,
+              followed by an equals sign (=) and a value. <br />For example, The
+              following declares the message variable and initializes it with a
+              literal string "Hello":
+            </p>
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> message; <br />
+                message =
+                <span class="hljs-string">"Hello"</span>;</code
+              >
+            </div>
+            <p>
+              It's a good practice to use the let keyword to declare a variable.
+              Later, you'll learn the differences between var and let keywords.
+              And you should not worry about it for now
+            </p>
+            <br />
+
+            <p>
+              To declare and initialize a variable at the same time, you use the
+              following syntax:
+            </p>
+
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> variableName =
+                value;</code
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-2" id="tab2">
+        <div class="container">
+          <h3 class="head-sub-title">JavaScript Syntax</h3>
+          <div class="contant">
+            <h5>Summary:</h5>
+            <p>
+              <br />In this tutorial, you will learn about JavaScript syntax,
+              including whitespace,statements, identifiers,comments,
+              expressions, and keywords.
+            </p>
+            <h4>Whitespace</h4>
+            <p>
+              Whitespace refers to characters that provide the space between
+              other characters. JavaScript has the following whitespace:
+            </p>
+            <ul>
+              <li>Carriage return</li>
+              <li>Space</li>
+              <li>New Line</li>
+              <li>Tab</li>
+            </ul>
+            <br />
+            <p>
+              JavaScript engine ignores whitespace. However, you can use
+              whitespace to format the code to make it easy to read and
+              maintain. <br />
+              The following JavaScript code doesn't use whitespace:
+            </p>
+            <br />
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> formatted =
+                <span class="hljs-literal">true</span>;<br />
+                <span class="hljs-keyword">if</span> (formatted) {<span
+                  class="hljs-built_in"
+                  >console</span
+                >.log(<span class="hljs-string">'The code is easy to read'</span
+                >)};</code
+              >
+            </div>
+            <br />
+            <p>
+              It's is equivalent to the following code that uses whitespace.
+              Hence, this code is much easy to read:
+            </p>
+            <div>
+              <pre
+                class="wp-block-code"
+                aria-describedby="shcb-language-2"
+                data-shcb-language-name="JavaScript"
+                data-shcb-language-slug="javascript"
+              ><div><code class="hljs language-javascript"><span class="hljs-keyword">let</span> formatted = <span class="hljs-literal">true</span>;
+                    <span class="hljs-keyword">if</span> (formatted) {
+                      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'The code is easy to read'</span>);
+                    }</code></div><i class="icon-copy btn-copy-code"></i></pre>
+            </div>
+
+            <h4>Statements</h4>
+            <p>
+              A statement is a code that declares a variable or instructs the
+              JavaScript engine to do a task. A simple statement is terminated
+              by a semicolon (;).
+            </p>
+            <br />
+            <p>
+              Although the semicolon (;) is optional; you should always use it
+              to terminate a statement. For example, the following declares a
+              variable and shows it to the console:
+            </p>
+
+            <div>
+              <code class="hljs language-javascript"
+                ><span class="hljs-keyword">let</span> message =
+                <span class="hljs-string">"Welcome to JavaScript"</span>;<br />
+                <span class="hljs-built_in">console</span>.log(message);</code
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

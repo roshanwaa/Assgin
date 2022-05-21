@@ -1,0 +1,23 @@
+Create a page with 4-5 blog tabs. Within 10-15 seconds of scrolling or just being on the page a popup model is displayed where the user is displayed a sign-up/sign in form. The popup needs to have a close option in case the user doesn't want to register or login. The form should be validated that is to check if the user is putting name, email address, phone number in correct format and not using any dummy data to register or log in. 
+
+Blog tabs should have a thumbnail and initial 3-4 lines of the blog should be visible and and to read the full blog the user needs to click on Read more or on the tab. 
+
+Once the user clicks on read more or on the blog tab that particular blog opens up and the blog page should have a shareable option(share it via whatsapp, fb and any other platform if possible). Shareable options should be workable and clickable for at least 2 messaging platforms. 
+
+At the bottom of the blog there should be a rating option where the user can rate the blog. Ratings should be accepted in star format. 5 clickable stars for the user to rate.
+
+
+
+
+- You can use bootstrap (version 4 or above) or HTML, CSS or JS.
+- No market templates should be used. 
+- The project needs to be submitted by 21 May, 6 PM. Even if the project is not completed you are supposed to submit the project by the agreed deadline. 
+- You can use animations, images or any content that you need to make the page look as visually appealing as possible. 
+
+All the best and let me know if you have any queries.
+
+
+
+ 
+continue –
+Comma operator – guide you on how to use the comma operator in a for loop to update multiple variables at once.
